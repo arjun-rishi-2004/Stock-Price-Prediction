@@ -59,7 +59,7 @@ Before running the code, make sure you have the following dependencies installed
 
 ## Usage
 
-1. Open the Jupyter Notebook: `Stock_Price_Prediction.ipynb`.
+1. Open the Jupyter Notebook: `ADS_Phase4.ipynb`.
 
 2. Follow the code in the notebook step-by-step to execute the project.
 
