@@ -1,54 +1,80 @@
+
 # Stock Price Prediction Project
 
-## Project Overview
+Welcome to the Stock Price Prediction Project. This project focuses on predicting the closing price of Microsoft (MSFT) stock using historical data and machine learning techniques.
 
-- *Project Name:* Stock Price Prediction
-- *Objective:* This project aims to develop a predictive model that forecasts the closing stock price of Microsoft based on historical market data. The goal is to assist investors in making informed decisions and optimizing their investment strategies.
+## Table of Contents
 
-## Problem Statement
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+  - [Dependencies](#dependencies)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
 
-In the dynamic world of financial markets, investors are continually seeking ways to gain a competitive edge. This project addresses the challenge of accurately forecasting stock prices, particularly those of Microsoft, using historical market data. By leveraging historical data and advanced predictive modeling techniques, we aim to develop a model that can assist investors in making data-driven investment choices.
 
-## Key Components and Steps
+## Overview
 
-1. *Data Collection*: We'll source historical stock market data for Microsoft, ensuring that it includes essential features such as date, open price, close price, volume, and other pertinent indicators.
+### Problem Statement
 
-2. *Data Preprocessing*: We'll clean and transform the collected data, handling missing values and converting the date column into a datetime format for time series analysis.
+The main goal of this project is to develop an accurate stock price prediction model for Microsoft (MSFT) based on historical stock data. Specifically, we aim to predict the closing price of MSFT stock.
 
-3. *Feature Engineering*: We'll create new features, such as moving averages, technical indicators, and lagged variables, to enhance the model's predictive power.
+### Design Thinking Process
 
-4. *Model Selection*: We'll explore various machine learning and time series forecasting algorithms to identify the most effective model for our task.
+1. **Data Collection**: We obtained the dataset from Kaggle, which contains historical MSFT stock data.
 
-5. *Model Training*: With the selected model, we'll train it using a split dataset, fine-tuning its hyperparameters to optimize performance.
+2. **Data Preprocessing**: We handled missing values, converted date data, and selected relevant columns.
 
-6. *Evaluation*: We'll assess the model's accuracy using time series forecasting metrics and visualize actual vs. predicted stock prices.
+3. **Feature Engineering**: We calculated moving averages, Relative Strength Index (RSI), and Moving Average Convergence Divergence (MACD).
 
-7. *Deployment*: We'll deploy the trained model for real-time or batch predictions and create a user-friendly interface for accessing predictions.
+4. **Model Selection**: We chose the Random Forest Regressor for stock price prediction.
 
-## Dataset
+5. **Model Training**: We split the data into training and testing sets and trained the model.
 
-We will use a meticulously curated dataset containing historical stock market data for Microsoft, ensuring its accuracy and reliability. The dataset should cover a sufficient time frame for meaningful analysis.
+## Getting Started
 
-## Tools and Technologies
+### Dependencies
 
-- *Programming Language:* Python
-- *Development Platform:* Jupyter Notebook
-- *Libraries:* pandas, numpy, scikit-learn, matplotlib
+Before running the code, make sure you have the following dependencies installed:
 
-## Timeline
+- Python (>= 3.6)
+- Jupyter Notebook (for running the provided Jupyter Notebook)
+- Required Python packages (install using `pip install`):
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
 
-We've outlined a well-defined project timeline with milestones for each project phase to allocate adequate time for crucial tasks.
+### Installation
 
-## Team Roles
+1. Clone this repository to your local machine using `git clone` or download the ZIP file and extract it.
 
-Our project team will consist of individuals with distinct roles and responsibilities to ensure effective project management.
+2. Ensure you have Python (>= 3.6) installed. You can download Python from [Python's official website](https://www.python.org/downloads/).
 
-## Risks and Mitigations
+3. Install the required Python packages using pip:
 
-We've identified potential risks and challenges and developed strategies and contingency plans to mitigate them.
+   ```bash
+   pip install pandas numpy matplotlib scikit-learn
+   ```
 
-## Conclusion
+## Usage
 
-The Stock Price Prediction project aspires to deliver a valuable tool for investors, providing them with the ability to forecast stock prices accurately based on historical market data. This design document serves as a comprehensive roadmap for the successful execution of the project.
+1. Open the Jupyter Notebook: `Stock_Price_Prediction.ipynb`.
 
-For more details, please refer to the [full project design document](link-to-document.md).
+2. Follow the code in the notebook step-by-step to execute the project.
+
+3. You can run each cell of the notebook by selecting it and pressing Shift + Enter (or using the "Run" button).
+
+4. The notebook provides comments and explanations for each step.
+
+## Project Structure
+
+The project structure is organized as follows:
+
+- `Stock_Price_Prediction.ipynb`: Jupyter Notebook containing the code and explanations.
+- `MSFT.csv`: The dataset used for the project.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions, bug reports, or feature requests, please create an issue in the repository or open a pull request.
+
