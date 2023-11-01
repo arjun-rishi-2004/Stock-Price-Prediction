@@ -74,7 +74,5 @@ The project structure is organized as follows:
 - `Stock_Price_Prediction.ipynb`: Jupyter Notebook containing the code and explanations.
 - `MSFT.csv`: The dataset used for the project.
 
-## Contributing
 
-Contributions are welcome! If you have suggestions, bug reports, or feature requests, please create an issue in the repository or open a pull request.
 
